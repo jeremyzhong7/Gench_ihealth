@@ -1,0 +1,4 @@
+PyMySQL==0.9.3
+requests==2.23.0
+lxml==4.6.2
+fake_useragent==0.1.11
