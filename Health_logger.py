@@ -7,8 +7,14 @@ import time
 日志模块
 '''
 #rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))
+'''
+linux和windows路径分开
+'''
 log_path = os.path.dirname(sys.path[0] + '\\Log\\')
 log_name = log_path + '\\' + 'health.log'
+
+# log_path = os.path.dirname(sys.path[0] + '//Log//')
+# log_name = log_path + '//' + 'health.log'
 
 
 logger = logging.getLogger()

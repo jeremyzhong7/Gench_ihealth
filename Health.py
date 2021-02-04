@@ -102,7 +102,7 @@ if __name__ == '__main__':
     infos = [{'username': user[0],
               'password': user[1]} for user in users]
 
-    # 可改用多线程实现同时打卡
+    # 改用多线程实现同时打卡
     for s in infos:
         stu = Student_health()
         stu.username = s['username']  # 学号
